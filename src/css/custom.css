@@ -76,7 +76,7 @@ main .container {
 }
 
 .navbar__title::after {
-    content: "by neuraflow";
+    content: "von neuraflow";
     font-size: 0.8rem;
     opacity: 0.5;
     margin-left: 0.5rem;

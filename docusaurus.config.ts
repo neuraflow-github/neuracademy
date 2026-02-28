@@ -21,8 +21,8 @@ const config: Config = {
     onBrokenMarkdownLinks: "warn",
 
     i18n: {
-        defaultLocale: "en",
-        locales: ["en"],
+        defaultLocale: "de",
+        locales: ["de"],
     },
 
     markdown: {
@@ -51,7 +51,9 @@ const config: Config = {
                     sidebarPath: "./sidebars.ts",
                     routeBasePath: "/",
                 },
-                pages: false,
+                pages: {
+                    path: "src/pages",
+                },
                 blog: false,
                 theme: {
                     customCss: "./src/css/custom.css",
